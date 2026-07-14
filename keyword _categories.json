@@ -1,0 +1,42 @@
+{
+  "RESULTS": [
+    "beats estimates", "beat estimates", "record profit", "profit surge", "profit jumps",
+    "net profit rises", "revenue growth", "strong quarter", "record sales", "raises guidance",
+    "misses estimates", "misses expectations", "profit falls", "profit drops", "net loss",
+    "wider loss", "revenue decline", "weak quarter", "cuts guidance"
+  ],
+  "SMART_MONEY": [
+    "block deal", "bulk deal buying", "fii buying", "stake increase", "insider buying",
+    "record fii buying", "mutual fund buying", "lic buying", "dii buying", "promoter buying",
+    "promoter stake hike", "block deal selling", "bulk deal selling", "fii selling",
+    "record fii selling", "mutual fund selling", "lic selling", "dii selling",
+    "promoter selling", "promoter stake cut", "stake sale", "pledge shares", "margin call"
+  ],
+  "ELECTION_MACRO": [
+    "exit poll favors", "landslide victory", "stable government", "policy continuity",
+    "repo rate cut", "rate cut", "gst rate cut", "import duty cut", "export incentive",
+    "pli scheme", "corporate tax cut", "strong gdp growth", "oil prices fall",
+    "rupee strengthens", "trade deal signed", "tariff removed", "windfall tax removed",
+    "election uncertainty", "hung assembly", "coalition instability", "exit poll against",
+    "repo rate hike", "rate hike", "gst rate hike", "import duty hike", "export ban",
+    "trade war", "tariff imposed", "windfall tax imposed", "geopolitical tension",
+    "war outbreak", "oil price surge", "rupee weakens", "recession fears", "inflation surge",
+    "rbi hawkish stance", "sanctions imposed", "supply chain disruption"
+  ],
+  "CORPORATE_ACTION": [
+    "upgraded to buy", "upgrade", "raises target price", "buyback", "special dividend",
+    "dividend announced", "bonus shares", "stock split", "acquisition", "acquires", "merger",
+    "strategic partnership", "new order win", "bags order", "wins contract", "expansion plan",
+    "capacity expansion", "market share gain", "outperform", "positive outlook", "debt reduction",
+    "pact signed", "jv announced", "record exports", "downgraded to sell", "downgrade",
+    "cuts target price", "credit rating downgrade", "credit rating upgrade"
+  ],
+  "REGULATORY_RISK": [
+    "fda approval", "clears trial", "government approval", "fraud", "scam", "sebi probe",
+    "sebi investigation", "raid", "resignation", "ceo resigns", "cfo resigns", "auditor resigns",
+    "default", "debt default", "bankruptcy", "insolvency", "lawsuit", "ban imposed",
+    "regulatory action", "penalty imposed", "fine imposed", "layoffs", "job cuts",
+    "plant shutdown", "production halt", "recall", "strike", "protest", "cyberattack",
+    "data breach", "safety violation", "environmental violation"
+  ]
+}
