@@ -1,0 +1,22 @@
+# Render Blueprint file - is repo ko Render pe "Blueprint" ke through
+# ek click me deploy karne ke liye use hoti hai.
+# Render dashboard me: New -> Blueprint -> apni GitHub repo select karo
+services:
+  - type: web
+    name: news-trading-signals-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: POLL_INTERVAL_MINUTES
+        value: "3"
+      - key: MIN_CONFIDENCE_SCORE
+        value: "75"
+      - key: MIN_RISK_REWARD_RATIO
+        value: "1.5"
+        
