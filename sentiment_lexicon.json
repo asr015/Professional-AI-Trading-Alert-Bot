@@ -1,0 +1,42 @@
+{
+  "bullish": {
+    "beats estimates": 30, "beat estimates": 30, "record profit": 35, "record high": 30,
+    "profit surge": 30, "profit jumps": 28, "net profit rises": 25, "revenue growth": 20,
+    "strong quarter": 22, "upgraded to buy": 35, "upgrade": 25, "raises target price": 30,
+    "buyback": 25, "special dividend": 22, "dividend announced": 15, "bonus shares": 25,
+    "stock split": 15, "acquisition": 20, "acquires": 18, "merger": 18, "strategic partnership": 20,
+    "new order win": 25, "bags order": 25, "wins contract": 25, "expansion plan": 15,
+    "government approval": 20, "fda approval": 30, "clears trial": 25, "capacity expansion": 15,
+    "record sales": 28, "market share gain": 20, "outperform": 22, "positive outlook": 18,
+    "raises guidance": 25, "block deal": 12, "bulk deal buying": 15, "fii buying": 18,
+    "stake increase": 15, "insider buying": 20, "debt reduction": 15, "credit rating upgrade": 25,
+    "exit poll favors": 25, "landslide victory": 22, "stable government": 20, "policy continuity": 18,
+    "repo rate cut": 28, "rate cut": 22, "gst rate cut": 20, "import duty cut": 18,
+    "export incentive": 18, "pli scheme": 20, "corporate tax cut": 25, "strong gdp growth": 20,
+    "record fii buying": 30, "mutual fund buying": 20, "lic buying": 20, "dii buying": 18,
+    "promoter buying": 22, "promoter stake hike": 22, "government stake sale success": 15,
+    "oil prices fall": 18, "rupee strengthens": 15, "trade deal signed": 22, "tariff removed": 22,
+    "windfall tax removed": 20, "pact signed": 15, "jv announced": 18, "record exports": 20
+  },
+  "bearish": {
+    "misses estimates": 30, "misses expectations": 30, "profit falls": 28, "profit drops": 28,
+    "net loss": 32, "wider loss": 30, "revenue decline": 22, "weak quarter": 22,
+    "downgraded to sell": 35, "downgrade": 25, "cuts target price": 30, "fraud": 40,
+    "scam": 40, "sebi probe": 35, "sebi investigation": 35, "raid": 35, "resignation": 25,
+    "ceo resigns": 28, "cfo resigns": 25, "auditor resigns": 30, "default": 38,
+    "debt default": 38, "bankruptcy": 40, "insolvency": 38, "lawsuit": 22, "ban imposed": 30,
+    "regulatory action": 25, "penalty imposed": 22, "fine imposed": 22, "layoffs": 22,
+    "job cuts": 22, "plant shutdown": 25, "production halt": 25, "recall": 20,
+    "credit rating downgrade": 28, "block deal selling": 12, "bulk deal selling": 15,
+    "fii selling": 18, "stake sale": 15, "promoter selling": 22, "pledge shares": 20,
+    "margin call": 25, "negative outlook": 18, "cuts guidance": 25, "strike": 18, "protest": 12,
+    "election uncertainty": 20, "hung assembly": 25, "coalition instability": 22, "exit poll against": 22,
+    "repo rate hike": 28, "rate hike": 22, "gst rate hike": 20, "import duty hike": 20,
+    "export ban": 28, "trade war": 25, "tariff imposed": 25, "windfall tax imposed": 22,
+    "record fii selling": 30, "mutual fund selling": 20, "lic selling": 20, "dii selling": 18,
+    "promoter selling": 22, "promoter stake cut": 22, "geopolitical tension": 20, "war outbreak": 30,
+    "oil price surge": 20, "rupee weakens": 15, "recession fears": 22, "inflation surge": 20,
+    "rbi hawkish stance": 20, "sanctions imposed": 25, "supply chain disruption": 18,
+    "cyberattack": 25, "data breach": 25, "safety violation": 20, "environmental violation": 20
+  }
+}
