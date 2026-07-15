@@ -1,1 +1,45 @@
-ghg
+name: News Trading Signal Check
+
+on:
+  # Manual trigger - GitHub repo ke "Actions" tab me "Run workflow" button se
+  workflow_dispatch: {}
+
+  # Automatic schedule - har 10 minute me (IST market hours ke aas paas,
+  # UTC me convert kiya hai: 9:00 AM - 3:35 PM IST = 3:30 AM - 10:05 AM UTC)
+  schedule:
+    - cron: "*/10 3-10 * * 1-5"   # Mon-Fri, market hours, har 10 min
+
+permissions:
+  contents: write   # cache file commit karne ke liye zaroori
+
+jobs:
+  check-signals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo checkout karo
+        uses: actions/checkout@v4
+
+      - name: Python setup karo
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Dependencies install karo
+        run: pip install -r requirements.txt
+
+      - name: News check karo aur signals bhejo
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MIN_CONFIDENCE_SCORE: "75"
+          MIN_RISK_REWARD_RATIO: "1.5"
+        run: python check_signals.py
+
+      - name: Duplicate-check cache save karo (taaki agli baar same news dobara na bheje)
+        run: |
+          git config user.name "news-signal-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -f sent_news_cache.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update sent-news cache [skip ci]"
+          git push || true
+          
